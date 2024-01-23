@@ -1,0 +1,42 @@
+.fruits{
+    border: 3px solid silver;
+    text-align: center;
+    font-family: Peddana;
+    background-color: pink;
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+background-image: url("asets/Images/applorange.jpeg");
+}
+.cars{
+    border: 5px double black;
+    text-align: -moz-center;
+    font-family: "DejaVu Sans";
+    background-color: darksalmon;
+    margin: auto;
+    padding: 19px;
+    font-size: 27px;
+    background-image: url("asets/Images/toyota.jpeg");
+}
+.FRUITS{
+    border: 4px dot-dash wheat;
+    text-align: inherit;
+    font-family: "Century Schoolbook L";
+    background-color: burlywood;
+    margin: revert;
+    padding: 18px;
+    font-size: 26px;
+   background-image: url("asets/Images/mango.jpeg");
+
+}
+#computers{
+    border: 5px dotted royalblue;
+    text-align: -moz-center;
+    font-family: Peddana;
+      background-color: darksalmon;
+    margin: auto;
+    padding: 19px;
+    font-size: 27px;
+    background-image: url("asets/Images/computer.jpeg");
+
+}

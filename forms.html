@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="asets/Images/e.jpeg" type="image/x-icon">
+    <style>
+        title{
+            color: pink;
+        }
+        h2{
+            text-align: center;
+            font-family: Peddana;
+            font-size: 60px;
+            color: coral;
+        }
+
+            body {
+                background-image: url("asets/Images/black.jpeg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+          label {
+              color: white;
+              text-align: center;
+              font-size: 40px;
+              font-family: Peddana;
+              margin: 40px;
+              /*text-decoration: darkblue;*/
+          }
+          input {text-align: center;
+              margin: 30px;
+              padding: 10px;
+              /*text-decoration: coral;*/
+              /*width: 20px;*/
+
+          }
+          img {
+              width: 20px;
+          }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+<h2>Emobilis Registration Form</h2>
+<hr>
+<form action="">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="jina" required><br><br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="jina_1"><br><br>
+    <label for="email">E-mail</label>
+    <input type="email" id="email" name="barua pepe"><br><br>
+    <label for="phone">Mobile No.</label>
+    <input type="text" id="phone" name="nambari" maxlength="10"><br><br>
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender">
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender">
+    <label for="others">Custom</label>
+    <input type="radio" id="others" name="gender"><br><br>
+    <label for="course">Course taken</label>
+    <select name="course" id="course">
+        <option value="react js">React Js</option>
+        <option value="android">Android</option>
+        <option value="cyber">Cyber Security</option>
+        <option value="data">DAta science</option>
+        <option value="mit">MIT</option>
+        <option value="ai">Artificial Intelligence</option>
+        <option value="robotics">Robotics</option>
+    </select><br><br>
+    <label for="date">Date of Birth</label>
+    <input type="date" id="date" name="tarehe"><br><br>
+    <label for="pass">Password</label>
+    <input type="password" id="pass" name="neno siri"><br><br>
+    <input type="submit" value="Register"><br><br>
+    <label for="upload Image">Upload Image</label>
+    <input type="file" id="upload Image"><br><br>
+</form>
+
+</body>
+</html>
